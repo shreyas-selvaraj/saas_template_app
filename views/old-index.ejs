@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+    <form action = "/signup" method = "post">
+      <input required type = "email" name = "email" placeholder="Your Email"/>
+      <input required type = "password" name = "password" placeholder = "Your Password"/>
+      <input type = "submit" value = "Signup For Trial" />
+    </form>
+  </body>
+</html>
